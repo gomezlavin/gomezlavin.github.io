@@ -4,12 +4,12 @@ margin: 0;
 
 #top_div {
   background-color: rgb(37,37,37);
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 170px;
 }
 
 #bottom_div {
-  text-align: center
+  text-align: center;
 }
 
 h1 {
@@ -40,9 +40,141 @@ h3 {
 #sgl_img {
   width: 250px;
   margin-top: -120px;
+  margin-left: 30px;
+  margin-right: 30px;
   border-radius: 150px;
+  box-shadow: 0 8px 8px -6px black;
 }
 
-/*59  198 81  */
+nav {
+  background-color: rgb(37,37,37);
+  text-align: center;
+  padding-top: 20px;
+}
 
-/*#1abc9c*/
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  margin: 10px 25px;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 15px;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+}
+
+.cl-effect-21 a {
+  padding: 10px;
+  color: rgb(144,144,144);
+  font-weight: 700;
+  text-shadow: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.cl-effect-21 a::before,
+.cl-effect-21 a::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.cl-effect-21 a::before {
+  top: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.cl-effect-21 a::after {
+  bottom: 0;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.cl-effect-21 a:hover,
+.cl-effect-21 a:focus {
+  color: #fff;
+}
+
+.cl-effect-21 a:hover::before,
+.cl-effect-21 a:focus::before,
+.cl-effect-21 a:hover::after,
+.cl-effect-21 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.fa-circle {
+  color: #1abc9c;
+  margin: 0;
+}
+
+.fa-square {
+  color: #1abc9c;
+  margin: 0;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-twitter,
+.fa-envelope {
+  color: white;
+}
+
+.fa-stack {
+/*  margin-top: -340px;
+  margin-top: -250px;*/
+  margin-top: -90px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-envelope:hover {
+  color: rgb(37,37,37);
+}
+
+
+
+
+
+
+
+
+
+
+
+
