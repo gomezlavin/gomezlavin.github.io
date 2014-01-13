@@ -7,45 +7,115 @@
   <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   <script src="js/app.js"></script>
   <script src="js/jquery-2.0.3.min.js"></script>
 
 </head>
 <body>
+  <!-- NAVBAR HTML -->
   <nav class="cl-effect-21">
-    <a href="index.html">HOME</a>
-    <a href="#">PROJECTS</a>
-    <a href="#">ABOUT ME</a>
+    <a href="#home">HOME</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#about">ABOUT ME</a>
+    <a href="#contact">CONTACT</a>
     <a href="files/CV_SGL.pdf">RESUME</a>
   </nav>
-  <div id="top_div">
+
+  <!-- NAME AND TITLE HTML -->
+  <div id="home">
     <h3>I AM</h3>
     <h1>SANTIAGO GOMEZ</h1>
     <h2>Full-Stack Web Developer</h2>
   </div>
-  <div id="bottom_div">
+
+  <!-- PROFILE PICTURE HTML -->
+  <div id="photo">
+    <img id="sgl_img" src="img/sgl.png">
+  </div>
+
+  <!-- PROJECTS HTML -->
+  <div id="projects">
+    <h4>Projects</h4>
+
+    <!-- PROJECT: ME-2-ME -->
+    <div class="project_container">
+      <img class="screenshots" src="img/me2me.png" width="400">
+      <h5>ME-2-ME <span class="date">(Dec 2013)</span></h5>
+      <p class="p1">
+        Me-2-Me is an app designed to help you keep track of your thoughts, goals and epiphanies by reminding you about them unexpectedly in the future. You can also write letters to your future self that will be only available on a specific date, as if they were placed inside a time capsule. Use Me-2-Me and start the dialogue with yourself!
+      </p>
+      <p class="p2">
+        <i class="fa fa-external-link-square fa-lg"></i>&nbsp;&nbsp;
+        <a href="http://www.me-2-me.com">www.me-2-me.com
+        </a>
+      </p>
+      <p class="p2">
+        <i class="fa fa-github-square fa-lg"></i>&nbsp;&nbsp;
+        <a href="https://github.com/gomezlavin/me2me">github.com/gomezlavin/me2me
+        </a>
+      </p>
+    </div>
+
+    <!-- PROJECT: OOMERANG -->
+    <div class="project_container">
+      <img class="screenshots"src="img/oomerang.png" width="400">
+      <h5>OOMERANG <span class="date">(Nov 2013)</span></h5>
+      <p class="p1">
+        Oomerang is a geolocation-based lost & found app to help find and return lost things to their owners. By using specific locations on a map oomerang simplifies the process of connecting people that loose and find items. Lost it, found it, oomerang it!
+        <br><br><br>
+      </p>
+      <p class="p2">
+        <i class="fa fa-external-link-square fa-lg"></i>&nbsp;&nbsp;
+        <a href="http://www.oomerang.com">www.oomerang.it
+        </a>
+      </p>
+      <p class="p2">
+        <i class="fa fa-github-square fa-lg"></i>&nbsp;&nbsp;
+        <a href="https://github.com/negomi/oomerang">github.com/negomi/oomerang
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- ABOUT ME HTML -->
+  <div id="about">
+    <h4>About Me</h4>
+    <p class="p3">
+      Hi, I am Santiago Gomez, a full-stack web developer seeking to use his coding skills at an innovative company that has a fast paced environment with a steep learning curve. I specialize in Ruby, Ruby on Rails and Javascript.<br><br>
+
+      I spent the last few years working in finance and renewable energy, living abroad in Europe, Southeast Asia and Latin America. Despite graduating with a Computer Engineering degree I never worked professionally in the tech industry, but always felt deeply attracted to the field.<br><br>
+
+      It was only until 2012, while taking at sabbatical year in Playa del Carmen, when I realized that technology and software development were my true passion. After spending some time slowly trying to learn on my own, I decided to join GA in San Francisco to kickstart my new career in web development.<br><br>
+
+      I am a javascript lover, fluent in Spanish and English, who is ready to use his new full-stack development skills to create useful apps for people around the world. I am especially interested in working more with Javascript, front-end development and hardware/software integration.
+    </p>
+  </div>
+
+  <!-- CONTACT HTML -->
+  <div id="contact">
+    <h6>Contact Me</h6>
     <a href="http://www.linkedin.com/in/gomezlavin/">
-    <span class="fa-stack fa-2x">
-      <i class="fa fa-square fa-stack-2x"></i>
+    <span class="fa-stack fa-4x">
+      <i class="fa fa-circle fa-stack-2x"></i>
       <i class="fa fa-linkedin fa-stack-1x"></i>
     </span></a>
     <a href="https://github.com/gomezlavin">
-    <span class="fa-stack fa-2x">
-      <i class="fa fa-square fa-stack-2x"></i>
+    <span class="fa-stack fa-4x">
+      <i class="fa fa-circle fa-stack-2x"></i>
       <i class="fa fa-github fa-stack-1x"></i>
     </span></a>
-    <img id="sgl_img" src="img/sgl.png">
+
     <a href="https://twitter.com/sangomlav">
-    <span class="fa-stack fa-2x">
-      <i class="fa fa-square fa-stack-2x"></i>
+    <span class="fa-stack fa-4x">
+      <i class="fa fa-circle fa-stack-2x"></i>
       <i class="fa fa-twitter fa-stack-1x"></i>
     </span></a>
     <a href="mailto:gomezlavin@gmail.com?Subject=Hello%20Santiago" target="_top">
-    <span class="fa-stack fa-2x">
-      <i class="fa fa-square fa-stack-2x"></i>
+    <span class="fa-stack fa-4x">
+      <i class="fa fa-circle fa-stack-2x"></i>
       <i class="fa fa-envelope fa-stack-1x"></i>
     </span>
-
   </div>
 
 </body>

@@ -2,54 +2,15 @@ body {
 margin: 0;
 }
 
-#top_div {
-  background-color: rgb(37,37,37);
-  padding-top: 40px;
-  padding-bottom: 170px;
-}
-
-#bottom_div {
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 110px;
-}
-
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #1abc9c;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 45px;
-}
-
-h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 20px;
-}
-
-#sgl_img {
-  width: 250px;
-  margin-top: -120px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 150px;
-  box-shadow: 0 8px 8px -6px black;
-}
-
+/* NAVBAR CSS */
 nav {
   background-color: rgb(37,37,37);
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+
 }
 
 *,
@@ -63,7 +24,7 @@ nav {
 nav a {
   position: relative;
   display: inline-block;
-  margin: 10px 25px;
+  margin: 10px 10px;
   outline: none;
   font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
@@ -135,12 +96,167 @@ nav a:focus {
   transform: translateY(0px);
 }
 
-.fa-circle {
+/* NAME AND TITLE CSS*/
+#home {
+  background-color: rgb(37,37,37);
+  padding-top: 110px;
+  padding-bottom: 170px;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 110px;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #1abc9c;
-  margin: 0;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* PROFILE PICTURE CSS*/
+#photo {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+#sgl_img {
+  width: 250px;
+  margin-top: -120px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 150px;
+  box-shadow: 0 8px 8px -6px black;
+}
+
+/* PROJECTS CSS*/
+#projects {
+  width: 100%;
+  background-color: #EEEEEE;
+  padding-top: 120px;
+  padding-bottom: 170px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #1abc9c;
+  margin: 0px auto;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.project_container {
+  padding: 20px;
+  background-color: white;
+  width:460px;
+  display: inline-block;
+  margin: 0px 20px;
+  box-shadow: inset 0px 1px 10px grey;
+  border-radius: 5px;
+}
+
+.screenshots {
+  box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(37,37,37);
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.date {
+  color: #1abc9c;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 2px 8px;
+}
+
+.p1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #9A9A9A;
+  font-size: 16px;
+  text-align: justify;
+  margin: 10px 8px;
+  line-height: 20px;
+}
+.p2 {
+  text-align: left;
+  margin: 10px 8px;
+  margin-top: 15px;
+}
+
+.project_container a {
+  font-family: 'Ubuntu', sans-serif;
+  color: #1abc9c;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .fa-square {
+  color: rgb(37,37,37);
+  margin: 0;
+}
+
+/* ABOUT ME CSS*/
+#about {
+  width: 100%;
+  background-color: white;
+  padding-top: 130px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.p3 {
+  text-align: justify;
+  width: 60%;
+  line-height: 30px;
+  color: rgb(37,37,37);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  margin: 40px auto;
+}
+
+/* CONTACT CSS*/
+#contact {
+  width: 100%;
+  background-color: rgb(37,37,37);
+  padding-top: 160px;
+  padding-bottom: 180px;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  margin: 0px auto;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.fa-circle {
   color: #1abc9c;
   margin: 0;
 }
@@ -153,11 +269,9 @@ nav a:focus {
 }
 
 .fa-stack {
-/*  margin-top: -340px;
-  margin-top: -250px;*/
-  margin-top: -90px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .fa-linkedin:hover,
