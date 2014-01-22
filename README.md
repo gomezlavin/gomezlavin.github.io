@@ -1,4 +1,5 @@
-gomezlavin.github.io
-====================
+==gomezlavin.github.io
 
-Santiago Gomez Lavin's Portfolio
+
+Santiago Gomez Lavin's Portfolio Page
+[www.sangomlav.com](www.sangomlav.com).
