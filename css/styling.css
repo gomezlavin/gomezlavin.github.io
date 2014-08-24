@@ -167,7 +167,7 @@ h4 {
   background-color: white;
   width:460px;
   display: inline-block;
-  margin: 0px 20px;
+  margin: 0px 20px 40px 20px;
   box-shadow: inset 0px 1px 10px grey;
   border-radius: 5px;
 }
